@@ -1,13 +1,9 @@
-# Portfolio
-##Title
-Chaochao Li's Personal Portfolio
-
-##Motivation
+# Chaochao Li's Personal Portfolio
 The portfolio site you develop this term is ultimately what you will use to present
 your work and your skill set (both technologically and graphically) to potential clients
 and employers. 
 
-###Developing environment:
+## Developing environment:
 1. Node,js
 2. Gulp
 3. Sass
