@@ -7,15 +7,17 @@ and employers.
 In order to make the project operate well, there is some software necessarily:
 
 ### Developing environment:
-1.Node,js
-2.Gulp
-3.Sass
-4.Database
-5.PHP
+ 1.Node,js
+ 2.Gulp
+ 3.Sass
+ 4.Database
+ 5.PHP
+
 ### Developing tool:
-1.Visual Studio Code
-2.Github
+ 1.Visual Studio Code
+ 2.Github
+
 ### Developing Languages:
-1.HTML5
-2.CSS
-3.Javascript
+ 1.HTML5
+ 2.CSS
+ 3.Javascript
