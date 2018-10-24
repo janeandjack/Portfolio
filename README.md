@@ -6,15 +6,15 @@ and employers.
 ## Prerequisites
 In order to make the project operate well, there is some software necessarily:
 
-Developing environment:
+### Developing environment:
 Node,js
 Gulp
 Sass
 Database
-Developing tool:
+### Developing tool:
 Visual Studio Code
 Github
-Developing Languages:
+### Developing Languages:
 HTML5
 CSS
 Javascript
