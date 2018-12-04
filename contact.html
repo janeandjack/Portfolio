@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaochao Li's portfolio</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+  <body  style="background-image: url(images/bg_img.jpg);">
+      <h1 class="hide">Chaochao Li's portfolio</h1>
+      <header id="mainHeader" class="row" style="background:#262626;">
+       
+        <h2 class="hide">Main Navigation</h2>
+          <div class="small-12 large-3 large-left columns" ><img id="logo" src="images/logo-2.svg" type="image/svg+xml" alt="logo"></div>
+              <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large" style="background-color:#262626">
+                  <div class="title-bar-right" >
+                      <button class="menu-icon" type="button" data-toggle="main-menu"></button>
+                  </div>
+              </div>
+    
+            <div id="main-menu" class="large-9 columns">
+              <ul class="menu align-right icons icon-top" id="mainNav">
+                    <li><a href="index.html"><i class="fab fa-fort-awesome-alt"></i><span>Home</span></a></li>
+                  <li><a  href="aboutme.html"><i class="fas fa-user-circle"></i><span>About me</span></a></li>
+                  <li><a  href="project.html"><i class="fas fa-project-diagram"></i><span>Project</span></a></li>
+                  <li><a  href="contact.html"><i class="fas fa-smile"></i><span>Contact</span></a></li>
+              </ul>
+            </div>
+      </header> 
+   
+      <section class="row" id="contact-1">
+          <p class="p-7">Sent Me A Message</p>
+          <hr class="hr-1">
+          <p class="p-8">Your email will not be published, required fields are marked.</p>
+
+
+          <form class="contact-form"  action="includes/sentemail.php" method="post">
+            <!--  -->
+                <div class="row">
+       
+                    <div class="small-12 medium-4 large-4 medium-offset-1 columns">
+                      
+                        <input type="text" name="name" placeholder="Name *" class="input-group" > 
+              
+          
+                    </div>
+                    <div class="small-12 medium-4 large-4 medium-pull-2 columns">
+                  
+                        <input type="email" placeholder="Email *" name="email" class="input-group" >
+             
+                    </div>
+                    
+      
+                </div>
+                <div class="row">
+       
+                        <div class="small-12 medium-4 medium-offset-1 large-4  columns">
+                          
+                            <input type="text" placeholder="Subject *" name="subject" class="input-group" >
+              
+              
+                        </div>
+                        <div class="small-12 medium-4  medium-pull-2 large-4  columns">
+                      
+                            <input type="tel" placeholder="Phone" name="phone" class="input-group" >
+           
+                   
+                        </div>
+                        
+          
+                    </div>
+                    <div class="row">
+                    <textarea id="comment-1" class="large-12 small-12 medium-12 columns" name="message" placeholder="Message" ></textarea>
+                    </div>
+                    <input class="submit-but" type="submit" name="submit" value="Submit" >
+          
+              </form>
+      </section>
+      <section class="row" id="contact-map">
+        <div class="large-12 small-12 medium-12  columns">
+            <iframe class="map-1" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d46698.9529832382!2d-81.28029612844901!3d42.9849179622556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m5!1s0x882ef20ea88d9b0b%3A0x28c7d7699a056b95!2z5a6J5aSn55Wl55yB5Lym5pWm!3m2!1d42.9849233!2d-81.2452768!4m0!5e0!3m2!1sen!2sca!4v1543435707569" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <footer class="row">
+        <p class="p-5">© 2016 Personal Potfolio. All Rights Reserved.</p>
+        <p class="p-6">Designed by <span class="s-1"> Chaochao Li </span></p>
+
+
+
+
+      </footer>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -6,7 +6,7 @@ and employers.
 ## Prerequisites
 In order to make the project operate well, there is some software necessarily:
 
-### Developing environment:
+### Developing environment
  1.Node,js
  2.Gulp
  3.Sass
