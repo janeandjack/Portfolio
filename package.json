@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "The portfolio site you develop this term is ultimately what you will use to present\r your work and your skill set (both technologically and graphically) to potential clients\r and employers.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.10.0",
+    "rebuild-node-sass": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janeandjack/Portfolio.git"
+  },
+  "author": "Chaochao Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janeandjack/Portfolio/issues"
+  },
+  "homepage": "https://github.com/janeandjack/Portfolio#readme"
+}
