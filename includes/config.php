@@ -2,14 +2,14 @@
 include 'connect.php';
 
 
-//  echo $db_user;
+
 $photo_query = 'SELECT * FROM `project_list`';
 
 $getImg = $pdo -> query($photo_query);
 
 $results = array();
 while($row = $getImg -> fetch(PDO::FETCH_ASSOC)){
-    //var_dump($row);
+
     $results[] = $row; 
 }
 
