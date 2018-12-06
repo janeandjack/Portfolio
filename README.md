@@ -1,8 +1,13 @@
-# Portfolio
+# Chaochao Li's Portfolio
+
 The portfolio site you develop this term is ultimately what you will use to present
 your work and your skill set (both technologically and graphically) to potential clients
 and employers. 
 
+Includes Home, Aboutme, Project and Contact page, dispaly most of browser inculdes IE, Firfox and Google.
+Contact page use PHP, founction in live page "chaochaoli.ca"
+
+Welcome to access my Website.
 ## Prerequisites
 In order to make the project operate well, there is some software necessarily:
 
