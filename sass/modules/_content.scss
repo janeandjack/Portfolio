@@ -14,7 +14,9 @@ transition: transform 2s;
 .personal-img:hover
 {
 	transform: scale(0.9);
+	
 }
+
 .p-1
 {
 	font-size: 40px;
@@ -109,7 +111,7 @@ transition: transform 2s;
 {
 	margin-left: 10%;
 	margin-top: 3%;
-	font-family: 'roboto','Times New Roman', Times, serif;
+	font-family: $aboutme-content-fontfamily;
 
 }
 
@@ -117,7 +119,7 @@ transition: transform 2s;
 {
 	width: 80%;
 	margin: 0 auto;
-	font-family: 'roboto','Times New Roman', Times, serif;
+	font-family: $aboutme-content-fontfamily;
 	font-size: 17px;
 	margin-top: 1%;
 }
@@ -150,12 +152,21 @@ transition: transform 2s;
 }
 #text-education:hover
 {
-	color: #17e7a4;
+	color:$main-hover-color;
 }
-.p-12, .p-13
+.p-12
 {
 	margin-left: 10%;
 	font-family: "Lato", sans-serif;
+}
+.p-13
+{
+	margin-left: 10%;
+	font-family: "Lato", sans-serif;
+}
+#skill-set-1
+{
+	background-color: $main-bg-color;
 }
 #skill-set
 {
@@ -207,6 +218,21 @@ margin-left: 10%;
 			  transform: rotate(360deg);
 	}
   }
+  #css-am {
+	display: inline-block;
+
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(226, 22, 22, 0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow;
+	transition-property: box-shadow;
+  }
+#css-am:hover, #css-am:focus, #css-am:active {
+	box-shadow: 0 0 8px rgba(207, 5, 5, 0.6);
+  }
+  
  #sass-am {
 	display: inline-block;
 	
@@ -223,13 +249,137 @@ margin-left: 10%;
 	background-color: #2098D1;
 	color: white;
   }
+ #js-am {
+	display: inline-block;
+
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(9, 232, 240, 0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow;
+	transition-property: box-shadow;
+  }
+  #js-am:hover, #js-am:focus, #js-am:active {
+	box-shadow: 0 10px 10px -10px rgba(5, 245, 205, 0.5);
+  }
+  #git-am:hover
+  {
+	  background-color: #2b5a4b;
+  }
+  #adobe-am:hover
+  {
+	color: #2098D1;
+  }
+ #sql-am {
+	display: inline-block;
+	
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+  }
+  #sql-am:before {
+	pointer-events: none;
+	position: absolute;
+	content: '';
+	height: 0;
+	width: 0;
+	top: 0;
+	right: 0;
+	background: white;
+	/* IE9 */
+	background: linear-gradient(225deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
+	box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: width, height;
+	transition-property: width, height;
+  }
+  #sql-am:hover:before, #sql-am:focus:before, #sql-am:active:before {
+	width: 25px;
+	height: 25px;
+  }
+  #php-am {
+	display: inline-block;
+
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow;
+	transition-property: box-shadow;
+	}
+  #php-am:hover, #php-am:focus, #php-am:active {
+	box-shadow: inset 0 0 0 4px #2098D1, 0 0 1px rgba(0, 0, 0, 0);
+
+  }
 
 //project page start project page start project page start project page start project page start project page start
   #gallery
   {
 	  width: 100%;
+	  margin: 0 auto;
+	  background-color: $main-bg-color;
   }
+  #gallery1
+  {
+	  width: 90%;
+	 margin-left: 5%;
+  }
+.p-14
+{
+	font-size: 40px;
+	font-family: $project-fonts;
+	text-align: center;
+	margin-top: 3%;
+}
+#project1, #project2, #project3, #project4, #project5, #project6
+{
+	background-color: $main-bg-color;
+	font-family: $project-name-fonts
+	
+}
+.project_name0, .project_name1, .project_name2, .project_name3, .project_name4, .project_name5
+{
+	text-align: center;
+	font-size: 32px; 
+	color: $main-hover-color;
+	font-family: $project-fonts;
+}
+.author-0, .tools-0
+{
+	color: $main-hover-color;
+}
+.tools0, .authors0
+{
+	margin-top: 1%;
+	
+}
+#demoreel
+{
+	margin-top: 1px;
+	background-color: $main-bg-color;
+}
+.p-15
+{
+	font-family: $project-fonts;
+	font-size: 37px;
+	text-align: center;
+	margin-top: 3%;
+}
+#div-video
+{
+	width: 90%;
+	margin-right: 5%;
+}
+
+
 //cotact page content start cotact page content start cotact page content start 
+iframe{
+    border-width: 0px;
+}
 .hr-1
 {
 	width:40%;
@@ -276,6 +426,10 @@ margin-left: 10%;
 	background-color: $main-bg-color;
 	margin: 0 auto;
 	text-align: center;
+}
+.map-1
+{
+	max-width: 90%;
 }
 .submit-but
 {
@@ -421,6 +575,21 @@ margin-top: 9%;
 }
 #gallery
 {
-	width: 80%;
+	margin-top: 1px;
+}
+#gallery1
+{
+	width: 50%;
+	margin: 0 auto;
+}
+.video
+{
+	width: 70%;
+}
+#div-video
+{
+	margin: auto;
+	width: 90%;
+	margin-bottom: 5%;
 }
 }
