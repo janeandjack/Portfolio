@@ -41,6 +41,7 @@ In order to make the project operate well, there is some software necessarily:
 ### Authors 
 * Chaochao Li --- Developer
 
-### License
-
 MIT License
+=======
+MIT
+
