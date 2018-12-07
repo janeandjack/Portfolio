@@ -126,18 +126,35 @@ transition: transform 2s;
 #education-icon
 {
 	font-size: 70px;
-	margin-top: 1%;
+	margin-top: 0%;
+
+}
+#exampleModal11
+{
+	background-color: #262626;
+	width: 90%;
+}
+#edu-icon
+{
+	color: $body-text-color;
+}
+#edu-icon:hover
+{
+	color: $main-hover-color;
 }
 #icon-education
 {
 	margin-top: 4%;
 	margin-left: 6%;
+
 	
 }
-#icon-education:hover
+#idp
 {
-	color: #19966e;
+	font-family: $aboutme-content-fontfamily;
+	color: #7f7f7f;
 }
+
 #text-education
 {
 	
@@ -153,6 +170,10 @@ transition: transform 2s;
 #text-education:hover
 {
 	color:$main-hover-color;
+}
+.video1
+{
+	width: 80%;
 }
 .p-12
 {
