@@ -179,7 +179,38 @@ transition: transform 2s;
 {
 	margin-left: 10%;
 	font-family: "Lato", sans-serif;
+	-webkit-animation: p-12 2.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3 both;
+	animation: p-12 2.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3 both;
 }
+
+
+ @-webkit-keyframes p-12 {
+	0% {
+	  letter-spacing: -0.5em;
+	  opacity: 0;
+	}
+	40% {
+	  opacity: 0.6;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  @keyframes p-12 {
+	0% {
+	  letter-spacing: -0.5em;
+	  opacity: 0;
+	}
+	40% {
+	  opacity: 0.6;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  
+
+
 .p-13
 {
 	margin-left: 10%;
@@ -216,29 +247,16 @@ margin-left: 10%;
 }
 
 #n { margin:10px auto; 
-	width:920px;
-	 border:1px solid #CCC;
- font-size:14px; 
- line-height:30px; } 
-#n a { 
-	padding:0 4px; 
-	color:#333 } 
-.Bar ,.Bars { 
-	position: relative; 
-	width: 200px;
-  border: 1px solid rgb(204, 206, 197); 
-  padding: 1px; } 
-.Bar div,.Bars div { 
-	display: block; 
-	position: relative;
-	background:rgb(166, 166, 206);
-    color: #333333;
-    height: 20px;  
-    line-height: 20px;
+	width:920px; border:1px solid #CCC;
+ font-size:14px; line-height:30px; } 
+#n a { padding:0 4px; color:#333 } 
+.Bar ,.Bars { position: relative; width: 200px;
+  border: 1px solid rgb(204, 206, 197); padding: 1px; } 
+.Bar div,.Bars div { display: block; position: relative;
+ background:rgb(166, 166, 206); color: #333333;
+ height: 20px;  line-height: 20px;
  } 
-.Bars div{ 
-	background:#090
-} 
+.Bars div{ background:#090} 
 .Bar div span,.Bars div span { 
 	position: absolute;
 	 width: 200px;
@@ -246,11 +264,7 @@ margin-left: 10%;
  font-weight: bold;
  color: #CCC;
  } 
-.cent{ 
-	margin:0 auto; 
-	width:300px; 
-	overflow:hidden
-}
+.cent{ margin:0 auto; width:300px; overflow:hidden}
 #html-1
 {
 	background-color: #262626;
