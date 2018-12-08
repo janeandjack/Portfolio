@@ -214,6 +214,52 @@ margin-left: 10%;
     font-family: "Roboto", sans-serif;
     border: 1.2px solid #cccccc;
 }
+
+#n { margin:10px auto; 
+	width:920px;
+	 border:1px solid #CCC;
+ font-size:14px; 
+ line-height:30px; } 
+#n a { 
+	padding:0 4px; 
+	color:#333 } 
+.Bar ,.Bars { 
+	position: relative; 
+	width: 200px;
+  border: 1px solid rgb(204, 206, 197); 
+  padding: 1px; } 
+.Bar div,.Bars div { 
+	display: block; 
+	position: relative;
+	background:rgb(166, 166, 206);
+    color: #333333;
+    height: 20px;  
+    line-height: 20px;
+ } 
+.Bars div{ 
+	background:#090
+} 
+.Bar div span,.Bars div span { 
+	position: absolute;
+	 width: 200px;
+ text-align: center; 
+ font-weight: bold;
+ color: #CCC;
+ } 
+.cent{ 
+	margin:0 auto; 
+	width:300px; 
+	overflow:hidden
+}
+#html-1
+{
+	background-color: #262626;
+	color: #CCC;
+}
+#html-1 p
+{
+	margin-top: 2%;
+}
 #html-am
 {
 	-webkit-animation: rotate-center 0.6s ease-in-out both;
@@ -251,7 +297,7 @@ margin-left: 10%;
 	transition-property: box-shadow;
   }
 #css-am:hover, #css-am:focus, #css-am:active {
-	box-shadow: 0 0 8px rgba(207, 5, 5, 0.6);
+	box-shadow: 0 0 8px rgba(255, 4, 4, 0.918);
   }
   
  #sass-am {
@@ -336,6 +382,9 @@ margin-left: 10%;
 	box-shadow: inset 0 0 0 4px #2098D1, 0 0 1px rgba(0, 0, 0, 0);
 
   }
+
+
+  
 
 //project page start project page start project page start project page start project page start project page start
   #gallery
@@ -572,6 +621,10 @@ margin-top: 9%;
 	{
 		margin-left: 20%;
 		font-size: 32px;
+	}
+	.p-12:hover
+	{
+		color: #17e7a4;
 	}
 	.p-13
 	{
