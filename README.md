@@ -5,7 +5,8 @@ your work and your skill set (both technologically and graphically) to potential
 and employers. 
 
 Includes Home, Aboutme, Project and Contact page, dispaly most of browser inculdes IE, Firfox and Google.
-Contact page use PHP, founction in live page "chaochaoli.ca"
+Contact page use PHP, founction in live page.
+www.chaochaoli.ca
 
 Welcome to access my Website.
 ## Prerequisites
@@ -42,4 +43,5 @@ In order to make the project operate well, there is some software necessarily:
 * Chaochao Li --- Developer
 
 ### License
-MIT
+   MIT
+
